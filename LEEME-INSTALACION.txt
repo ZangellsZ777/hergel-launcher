@@ -1,0 +1,28 @@
+HERGEL LAUNCHER — PAQUETE EL HORMIGUERO
+
+1. Extrae todo el ZIP. Mantén juntas las carpetas del launcher.
+2. Abre ABRIR-HERGEL.bat como antes. Si faltan dependencias:
+   py -m pip install -r requirements.txt
+3. En El Hormiguero, pulsa DESCARGAR / ACTUALIZAR.
+   Se descargarán Minecraft Java 1.20.1, sus recursos y Java 17,
+   se instalará Forge 47.4.10 y se copiará el paquete del evento.
+4. Espera a que diga Instalación completa.
+5. Inicia sesión con tu cuenta Microsoft propietaria de Minecraft Java.
+6. Pulsa JUGAR en el launcher. Ya dentro de Minecraft, usa Jugar
+   en el menú de FancyMenu para conectarte al servidor.
+
+El paquete de 34 mods está incluido en packs/hormiguero.zip.
+No necesitas subirlo a un alojamiento para probar esta versión.
+No borres ni muevas la carpeta packs.
+Shaders incluidos pero apagados. Voice Chat: Bloq Mayús para hablar.
+La instalación usa la ubicación discreta habitual de Hergel Launcher.
+Los ajustes iniciales se aplican en la primera instalación.
+Las siguientes actualizaciones conservan los controles y ajustes personales
+modificados; los diseños de FancyMenu y los mods del evento se actualizan.
+Descargar también repara los archivos del paquete.
+El juego usa 4 GB por defecto; puedes elegir de 2 a 16 GB en Ajustes.
+
+Validación: instalación del paquete real, integridad, reparación, ajustes
+personales y comando de arranque probados con las descargas simuladas.
+El arranque completo con gráficos y la conexión al servidor deben probarse
+con una cuenta real en Windows y acceso a los servicios de descarga.

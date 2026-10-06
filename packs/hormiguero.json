@@ -1,0 +1,1096 @@
+{
+  "archive": "hormiguero.zip",
+  "sha256": "13bab40506a1e32c33090b13150e625845ed2d0f5f50bde89e522380389ed9da",
+  "files": [
+    {
+      "path": "config/appleskin-client.toml",
+      "size": 1361,
+      "sha256": "b477c8c493b28366a6b282f29f46c9415e3a4a2a23fff6e09331644c435dfd48"
+    },
+    {
+      "path": "config/casinocraft-common.toml",
+      "size": 390,
+      "sha256": "c56f59b2da3983f4413200f3f519545be938e9c10940655494714392d6d03327"
+    },
+    {
+      "path": "config/easy_npc/dialog_client.cfg",
+      "size": 279,
+      "sha256": "87cfecdc6f2a26607dcf3fd2a2641277b59771d172efe8b08bb4f15bee101cc5"
+    },
+    {
+      "path": "config/easy_npc/dialog_options.cfg",
+      "size": 475,
+      "sha256": "f7505f50849ef6b52e14c2d2f3db1307b73bbe79972630af0b384b2490621725"
+    },
+    {
+      "path": "config/easy_npc/highlight_client.cfg",
+      "size": 192,
+      "sha256": "185f486437226d32b94a7495c1b0d0d5c5fc320a631e1c3390f4e14dc443c989"
+    },
+    {
+      "path": "config/easy_npc/name_tag_client.cfg",
+      "size": 465,
+      "sha256": "3d34ed67c13ba190c43dc4214c8fd018fa88e09f051f2e0b2b491aa91fd2a6a4"
+    },
+    {
+      "path": "config/easy_npc/npc_base.cfg",
+      "size": 215,
+      "sha256": "fe552567a601dfb9077554de32a593d3a9a87e130f1fdc2aa582d3fc98dfe379"
+    },
+    {
+      "path": "config/easy_npc/remote_texture.cfg",
+      "size": 247,
+      "sha256": "3192d59d5c68792ea1f38836da2638adb88bd40a45f45cd59bac6c655b888b9d"
+    },
+    {
+      "path": "config/easy_npc/render_entity_type_support.cfg",
+      "size": 31656,
+      "sha256": "9030781fa108f5212b25de0b546be37dcb6af1f621874beb173f83fafe9d20e3"
+    },
+    {
+      "path": "config/easy_npc/security.cfg",
+      "size": 4239,
+      "sha256": "0154735177b451af2d80134fb38c0d7926e4828370403cfe6b6f42b832895b38"
+    },
+    {
+      "path": "config/easy_npc/skin/allay/allay_template.png",
+      "size": 246,
+      "sha256": "5851df322e03f8c7d4ccd5875a7b8f38b692d6484cd9a8a34ca3ba2e51bcde1a"
+    },
+    {
+      "path": "config/easy_npc/skin/cat/cat_template.png",
+      "size": 283,
+      "sha256": "c9c22851b6ce2a97d731b4e476423abcfc4911acd9e29ae157b8be5b42088364"
+    },
+    {
+      "path": "config/easy_npc/skin/chicken/chicken_template.png",
+      "size": 287,
+      "sha256": "c9a5d1a53f844f32e2d530103540b4a91cfe8d53861c7b70bcae950742c50422"
+    },
+    {
+      "path": "config/easy_npc/skin/creeper/creeper_template.png",
+      "size": 255,
+      "sha256": "effaa2db2b00b87505ed4e59549598106a7c63684b69e0c820c308b41eeb2385"
+    },
+    {
+      "path": "config/easy_npc/skin/ender_man/ender_man_template.png",
+      "size": 276,
+      "sha256": "73579f345c51e7096168cacddf4b3e0a93b6c9880bded532a9d292c5917642a3"
+    },
+    {
+      "path": "config/easy_npc/skin/fairy/fairy_template.png",
+      "size": 434,
+      "sha256": "db071fe581827f3a195df8344909bafb243cbf54c8931dc60a7785285946d1bb"
+    },
+    {
+      "path": "config/easy_npc/skin/fox/fox_template.png",
+      "size": 335,
+      "sha256": "8cce109a5322cff97d82ea51c2c50d54d4486e57d48d72f20354d0e2e7aaf9a6"
+    },
+    {
+      "path": "config/easy_npc/skin/humanoid/humanoid_template.png",
+      "size": 360,
+      "sha256": "b96aee293379a6a60a0e862dc338eb6a14ea31929b4f78d9923eb6b60940106c"
+    },
+    {
+      "path": "config/easy_npc/skin/humanoid_slim/humanoid_slim_template.png",
+      "size": 384,
+      "sha256": "1c194da6ebe3a991146b0ef04a6000451789887a62bf7ee2d8a49b50b4bec6dd"
+    },
+    {
+      "path": "config/easy_npc/skin/husk/husk_template.png",
+      "size": 531,
+      "sha256": "81f7fb65d89044326626462c36bfdc28b45d7fb307543d5b28abfa7a3a031624"
+    },
+    {
+      "path": "config/easy_npc/skin/illager/illager_template.png",
+      "size": 300,
+      "sha256": "d3a9f1a01c6b711bb3ca70f598f14f3cfde8017542a8a48f93f8489b514dc03c"
+    },
+    {
+      "path": "config/easy_npc/skin/iron_golem/iron_golem_template.png",
+      "size": 451,
+      "sha256": "2fadcece746b8a921130968a567296e63d4dbdfd1282e21d71fbd278994a4fe6"
+    },
+    {
+      "path": "config/easy_npc/skin/orc/orc_template.png",
+      "size": 521,
+      "sha256": "1469eab5ffabb32f3b8ed9965de819db03ee6b0bd950885ad88fc5c517eaf817"
+    },
+    {
+      "path": "config/easy_npc/skin/pig/pig_template.png",
+      "size": 270,
+      "sha256": "e1d27259fbaab2ae6924d5fc73ed462215395f08f79ef1518005ee0f73f2a81a"
+    },
+    {
+      "path": "config/easy_npc/skin/piglin/piglin_template.png",
+      "size": 361,
+      "sha256": "9d2dfd8515332c4ac529e51599ee89b8a4c359617a225d15a5147020034870a5"
+    },
+    {
+      "path": "config/easy_npc/skin/skeleton/skeleton_template.png",
+      "size": 259,
+      "sha256": "aa91f44a9c36bea6c14537e4f73ab69a4b50d4406370577a7a0d63af4783a8c6"
+    },
+    {
+      "path": "config/easy_npc/skin/spider/spider_template.png",
+      "size": 308,
+      "sha256": "f9f894b50e1ebf1a2ea9cede0e6b8eadb816ef951b4d4ad6a7e55ce85be3bf1e"
+    },
+    {
+      "path": "config/easy_npc/skin/stray/stray_template.png",
+      "size": 531,
+      "sha256": "81f7fb65d89044326626462c36bfdc28b45d7fb307543d5b28abfa7a3a031624"
+    },
+    {
+      "path": "config/easy_npc/skin/vex/vex_template.png",
+      "size": 247,
+      "sha256": "56c665b06aa06dcc111c6a7c09e02729c026350a30c98635df5f54e3d12d4bcf"
+    },
+    {
+      "path": "config/easy_npc/skin/villager/villager_template.png",
+      "size": 357,
+      "sha256": "ee42acf22b0f8df770510a77e1c0988af96bb4f24e3b82a32b3364be021c760c"
+    },
+    {
+      "path": "config/easy_npc/skin/villager/villager_without_hat_template.png",
+      "size": 331,
+      "sha256": "d24d599378f1fb54f343926c2d39c078c81021cab7da6337f7a688621327cac5"
+    },
+    {
+      "path": "config/easy_npc/skin/witch/witch_template.png",
+      "size": 431,
+      "sha256": "ef51d0f6a893c201752ce5b12ee352651928d42497b102ba429d1b8cd25f2722"
+    },
+    {
+      "path": "config/easy_npc/skin/wolf/wolf_template.png",
+      "size": 321,
+      "sha256": "47833f4690766423c63905c6950224b77867e1c30833fd9a7cdcc0d6455d743a"
+    },
+    {
+      "path": "config/easy_npc/skin/zombie/zombie_template.png",
+      "size": 292,
+      "sha256": "e9a38d8b1980d1390575658004f1a8274d57e5f14afaff9a2c7dc06315d01f54"
+    },
+    {
+      "path": "config/easy_npc/skin/zombie_villager/zombie_villager_template.png",
+      "size": 356,
+      "sha256": "fdeea612041dc4c5137675bfb656ff570cad4b33fffa995746f1e56290614516"
+    },
+    {
+      "path": "config/easy_npc/spawner_type.cfg",
+      "size": 1186,
+      "sha256": "e15458e8f655d0f13ffddf61751658c14b118afe3b548885b5650a6e5ab8fe05"
+    },
+    {
+      "path": "config/easy_npc/speech_bubble_client.cfg",
+      "size": 874,
+      "sha256": "dcfccc568721d926837b8250fef46bd00db9d0e38921f8e8d0b4d398b877ca8c"
+    },
+    {
+      "path": "config/embeddium-mixins.properties",
+      "size": 269,
+      "sha256": "09ff183e061d93b79514bc171bf9118497578757e7a5c45946039487656e2619"
+    },
+    {
+      "path": "config/embeddium-options.json",
+      "size": 852,
+      "sha256": "b4b0aaec74cd2c37a2d0d384a4195768d8d7cbc9f86c7d993694e394fa35664d"
+    },
+    {
+      "path": "config/emotecraft.json",
+      "size": 647,
+      "sha256": "2fa623d32f4875832b34c7464d53a9686701ba0457336e9b008fcf40bd9e3411"
+    },
+    {
+      "path": "config/emotecraft_emote_map.json",
+      "size": 117,
+      "sha256": "0ce5a209870e0673c14f68d4581de2cefc67a3c37aa7071c943b711a69835775"
+    },
+    {
+      "path": "config/fancymenu/assets/disco.png",
+      "size": 2454,
+      "sha256": "09cb21c6604e4dedad726e9d98fbd4c2115576e63f7f8bfa30bf7fbd059b7257"
+    },
+    {
+      "path": "config/fancymenu/assets/discord.png",
+      "size": 2540,
+      "sha256": "2e73c71d6a9b1ea673ecacc6bc13345dcb4fa36dda326b17d60368c9bee67368"
+    },
+    {
+      "path": "config/fancymenu/assets/fondoconfig.png",
+      "size": 2571442,
+      "sha256": "9e8ceef1aeb628d0a3c14c42d549d0b20d65338e01dc43f6c78b45a899c42b99"
+    },
+    {
+      "path": "config/fancymenu/assets/fondohormiga.png",
+      "size": 2663271,
+      "sha256": "7d44dc99fb5f30c9c4a1113b3a612beea1058d44b5abba09c136fe6fdf1864c3"
+    },
+    {
+      "path": "config/fancymenu/assets/info.png",
+      "size": 2406,
+      "sha256": "a0a2a039a583583fddc888fa4760bc30c3a5a03a205676d160788336e1610dbd"
+    },
+    {
+      "path": "config/fancymenu/assets/infoo.png",
+      "size": 2276,
+      "sha256": "4899f71d667c86eab33db5180bc22d9c65962218fa02a4a486b3668e89b3b9bd"
+    },
+    {
+      "path": "config/fancymenu/assets/juega.png",
+      "size": 3668,
+      "sha256": "49781e680727e2f4236f30cf2838d07e30298c6dbf54e59b1b8dcab0a60764be"
+    },
+    {
+      "path": "config/fancymenu/assets/juga.png",
+      "size": 3681,
+      "sha256": "a019bec3db2cf6ce40c26abc0a84b84c1f21331921858c49bcdb4b9b07369e5a"
+    },
+    {
+      "path": "config/fancymenu/assets/logofondo.png",
+      "size": 1791410,
+      "sha256": "871120155920b95bd3fa290869bf32d88392ec6c07139ad8d3e206a0a51b057c"
+    },
+    {
+      "path": "config/fancymenu/assets/opc.png",
+      "size": 4595,
+      "sha256": "fd751be1e9ed53ae4986b5fe33f975f35464824dc805529887cb270f55705695"
+    },
+    {
+      "path": "config/fancymenu/assets/opc2.png",
+      "size": 4609,
+      "sha256": "139d2c4a0c590c13b7f107665a61ca57de91a7f86fb20c6924b6a94bb24a5406"
+    },
+    {
+      "path": "config/fancymenu/assets/sali.png",
+      "size": 3515,
+      "sha256": "320ad3b4362e56f3db7292a66cb4fb4c19b5ea465a69d2cd74a1657567cd3039"
+    },
+    {
+      "path": "config/fancymenu/assets/sali2.png",
+      "size": 3506,
+      "sha256": "a736d32721510239d0ce9dc9efeef1770e5bf466f898260bc5f1e5ffd9888f40"
+    },
+    {
+      "path": "config/fancymenu/customizablemenus.txt",
+      "size": 175,
+      "sha256": "07039eeca85b082ffeebcf3b1f765d4ee8afb4cda72e2a988c476005644d2e47"
+    },
+    {
+      "path": "config/fancymenu/customization/hormiguero.txt",
+      "size": 39090,
+      "sha256": "f47ef56398967f94eea354c307caac2e69e872a39e6d2768d7d0e0d8a93f20c7"
+    },
+    {
+      "path": "config/fancymenu/customization/mmddt.txt",
+      "size": 16108,
+      "sha256": "8c5f2fbbbe24cea6926b889befb1916ba04e78a63bffdfaaf609d905851fe5ae"
+    },
+    {
+      "path": "config/fancymenu/customization/opciones.txt",
+      "size": 27862,
+      "sha256": "666c72c3f7d2037448505f439f782ce312300924c79e4ce6c43d4bc02282e37c"
+    },
+    {
+      "path": "config/fancymenu/custom_gui_screens.txt",
+      "size": 51,
+      "sha256": "ff492043eaf454c46e949d5eef32ece90cc5a19feb50a161dd29a43b5732c880"
+    },
+    {
+      "path": "config/fancymenu/layout_editor/widgets/element_layer_control.lewidget",
+      "size": 197,
+      "sha256": "051d700ea7ff1bd626063d60f9a9cd65a0af1fed5903706d1e70fce20bcb2495"
+    },
+    {
+      "path": "config/fancymenu/legacy_checklist.txt",
+      "size": 42,
+      "sha256": "9a25d3dc708e43eabafce5479a13c02dae15bc7f673afb2745b8b2ba48a97dc0"
+    },
+    {
+      "path": "config/fancymenu/options.txt",
+      "size": 2128,
+      "sha256": "1e55625ba95167e20d554501565f80d80aacee0d77ffd18ca90a1d417539682e"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/dark.json",
+      "size": 6218,
+      "sha256": "3f1263eaf693fdb6a315099b06797ac18830faa66c620916a80337a5082fd850"
+    },
+    {
+      "path": "config/fancymenu/ui_themes/light.json",
+      "size": 6220,
+      "sha256": "3fcfc5f9957fbb86aea846c9ad49a24f47ca709c523c4018b584668e38b72f41"
+    },
+    {
+      "path": "config/fancymenu/user_variables.db",
+      "size": 23,
+      "sha256": "3d7d4cda73d6bde134a568ccbe4e8d2e7fbe701570012b71fa45acdb2258c823"
+    },
+    {
+      "path": "config/fml.toml",
+      "size": 1148,
+      "sha256": "506f0c4c714bf1528d45ab8202f303bde6ba5f9e53778c92a679efbc185afb12"
+    },
+    {
+      "path": "config/forge-client.toml",
+      "size": 1628,
+      "sha256": "0b1b3c45343435184c9dde3149b38afcdb97953e287686ecda54385f53ebcddc"
+    },
+    {
+      "path": "config/hergelmorph-animations.json",
+      "size": 481,
+      "sha256": "581b224ba8f39e2202e45383ca7bbe60689cfb0dfafd6253444e4cac1128155c"
+    },
+    {
+      "path": "config/immersive_paintings.json",
+      "size": 584,
+      "sha256": "65503c4720dd1017227041ee6ce26650a75a123af7331d66c5fac0a2cdace94c"
+    },
+    {
+      "path": "config/itemborders-common.toml",
+      "size": 4243,
+      "sha256": "892ede9976b284638218d5ebbfad7ae5fddfcc537e9edfacafb7b5a331c9872f"
+    },
+    {
+      "path": "config/konkrete/locals/de_de.local",
+      "size": 369,
+      "sha256": "79a34cfd15c2d9c06498dc221be79279507d9b57666cd44f8d2c2cf95d3582ef"
+    },
+    {
+      "path": "config/konkrete/locals/en_us.local",
+      "size": 426,
+      "sha256": "fdf1864fd049b3f1b9af1f8db6c5125a627be7d06a451c778da3329843d3c39a"
+    },
+    {
+      "path": "config/konkrete/locals/pl_pl.local",
+      "size": 313,
+      "sha256": "d38a7776e362e4de6082078d803c1c9358d9d40526edfe4bdfd29c552aef76d8"
+    },
+    {
+      "path": "config/konkrete/locals/pt_br.local",
+      "size": 322,
+      "sha256": "dca55a2792451b31424cd5c24037141ec57cdca51955d062dd908fa9ca6a3e9c"
+    },
+    {
+      "path": "config/lootbeams-client.toml",
+      "size": 7064,
+      "sha256": "cf84a483ca3c6418c5732ff540c31eda18788b409044067c1e84370f89599922"
+    },
+    {
+      "path": "config/lucky77-common.toml",
+      "size": 603,
+      "sha256": "440d55d9169064f6ed2ddbdf138b60efe6ff1a3794a9aa95386b76a6cb2ea645"
+    },
+    {
+      "path": "config/more_owleaf/admins.json",
+      "size": 27,
+      "sha256": "3d2349b493e48811a9325078c3803c91165fe04f59f23d7f48e8a496dbacacf7"
+    },
+    {
+      "path": "config/more_owleaf/casino_config.json",
+      "size": 7170,
+      "sha256": "25a9a636415febb07df951ce4dce76bfd60b0dcf088ba33df2c07dca34acc792"
+    },
+    {
+      "path": "config/more_owleaf/runa_trades.json",
+      "size": 2,
+      "sha256": "44136fa355b3678a1146ad16f7e8649e94fb4fc21fe77e8310c060f61caaff8a"
+    },
+    {
+      "path": "config/more_owleaf-common.toml",
+      "size": 1001,
+      "sha256": "72e5dd29cabd4e25af7922cb15a24116a0c001f7e300d7b5244aa8c5ceb291be"
+    },
+    {
+      "path": "config/mowziesmobs-client.toml",
+      "size": 984,
+      "sha256": "b2ed15f55eb1b57f7e1b4a81b99edd02d98d9000d319d72d73caae13e5fc4cc4"
+    },
+    {
+      "path": "config/mowziesmobs-common.toml",
+      "size": 35974,
+      "sha256": "e1add6dce3cbd2d1b49536ccc3309e00a09455bd12d85a9dd6717529cdbdfcc7"
+    },
+    {
+      "path": "config/obscuria/obscure_tooltips-client.toml",
+      "size": 5392,
+      "sha256": "e046845737179e207688839c0362b31f1d9a7783df0ff9636f042af6e6abaf4a"
+    },
+    {
+      "path": "config/oculus.properties",
+      "size": 280,
+      "sha256": "fd13779a914f959c47367a3760c0378393f8d678e7ce82c682734ced16412e36"
+    },
+    {
+      "path": "config/pehkui-client.toml",
+      "size": 138,
+      "sha256": "18741b2cf056e7609eac3dabe966569a12a819ab03e083c873c85c27a52929a7"
+    },
+    {
+      "path": "config/pehkui-common.toml",
+      "size": 407,
+      "sha256": "8a4afcf7a631191fbe6a1416b4d16f55584deb22dd90ec7ec337fdf444a92ba7"
+    },
+    {
+      "path": "config/voicechat/translations.properties",
+      "size": 1182,
+      "sha256": "693643b1d393cbb3ea7f062afc4474fcd66e4036c4f8d7c056434979cbf512d1"
+    },
+    {
+      "path": "config/voicechat/voicechat-client.properties",
+      "size": 5064,
+      "sha256": "3f7c9dfbe87e6ca47d6aac6dc43b54ba3a0aa64a535a02edc38072400fdb788e"
+    },
+    {
+      "path": "config/voicechat-client.toml",
+      "size": 94,
+      "sha256": "24a7b91377e08d0d8bc2805793c8150d473241aa816cbaa6fca9d254aa537ca5"
+    },
+    {
+      "path": "config/waterframes-client.toml",
+      "size": 1034,
+      "sha256": "92b857b816295e0556a27fc7571cd135c05699fea099bfefe824b13898f1ea54"
+    },
+    {
+      "path": "config/yacl.json5",
+      "size": 35,
+      "sha256": "d26a63d3cdf326412ba86dcc2781060bc53ed6c74ac7808e65325452e264e820"
+    },
+    {
+      "path": "emotes/bend_sit.json",
+      "size": 1037,
+      "sha256": "39d0c184249829bee1d94292748c5c7877e50da8767b42d44319164000ffd38f"
+    },
+    {
+      "path": "emotes/bow1.json",
+      "size": 12946,
+      "sha256": "b4fda1c66eb925f5c7a398eec5c5d2356334b651309f4c460bdee435264f9678"
+    },
+    {
+      "path": "emotes/bow2.json",
+      "size": 12957,
+      "sha256": "13f324f7bf7548f4479c4ebd06ab651250ffcfb838cfe65478e77a1cc6eafec9"
+    },
+    {
+      "path": "emotes/BPS_bloop.json",
+      "size": 30186,
+      "sha256": "00edeb240cbeed05fac31886ab268ef98958e2a9127d9efec36afe6af409fa12"
+    },
+    {
+      "path": "emotes/campfire_sit1.json",
+      "size": 57579,
+      "sha256": "21f0870a3db57d9db4442bc96cd3d0f275b940e311b58f99c3644420fb57f188"
+    },
+    {
+      "path": "emotes/club_penguin_dance.json",
+      "size": 186343,
+      "sha256": "91aeba791641240d734179fb8ed3365fa113aaf472144dc5c4f392ee048ebc26"
+    },
+    {
+      "path": "emotes/cool_sit.json",
+      "size": 15927,
+      "sha256": "00ea3c4adc6c77cfcffafbba0c3fe44394f050860dfed78cc1fea8fa6970ba6a"
+    },
+    {
+      "path": "emotes/cross.json",
+      "size": 13103,
+      "sha256": "5b7a997c01df8cc4e6fee0447956e7553899316af632b65145a98d81877d919f"
+    },
+    {
+      "path": "emotes/dab.json",
+      "size": 22531,
+      "sha256": "f30e429e892b16311593d595b7c8fa10cade0561a742f4ba2aa1693472fdc76e"
+    },
+    {
+      "path": "emotes/do_eternal_rest_and_respawn.json",
+      "size": 93325,
+      "sha256": "aa9f8d6ca98dcbaca21ff365e6c382c69c9a98751c834bb80ffe834fafe2b747"
+    },
+    {
+      "path": "emotes/F.json",
+      "size": 30870,
+      "sha256": "935ab98322109d4ab3b5594173543c9c46437218be99b1758f904bc4db117ede"
+    },
+    {
+      "path": "emotes/floss.json",
+      "size": 244604,
+      "sha256": "20bffc968326f9b0c4748c037ebef14cb8e30070196ea0ecf720b60df2916ba5"
+    },
+    {
+      "path": "emotes/floss_dance3.json",
+      "size": 75730,
+      "sha256": "c58ff8ebc9ddfb104f954921575cc8ea8bc391d839cb84783ba8a57f3e7c5eea"
+    },
+    {
+      "path": "emotes/grace.json",
+      "size": 15331,
+      "sha256": "51b645e73319d07693af9a0ee0ced9450393c1aa5dd61c4a984de38c3211504e"
+    },
+    {
+      "path": "emotes/headball.json",
+      "size": 45672,
+      "sha256": "0c579f45c449a41a5a7ccec221fdbcf69b420fd3a08c74d77895f48200caff09"
+    },
+    {
+      "path": "emotes/headspin.json",
+      "size": 585,
+      "sha256": "dc3b8be9ff5eb29ba9cb4967da12efcd8630434902ea8e6e087c7a5951b943d5"
+    },
+    {
+      "path": "emotes/headyeet.json",
+      "size": 12768,
+      "sha256": "70bde525c1f074ef9158a2ee64df064dc236535d2231a6753b58c6e9a33799c1"
+    },
+    {
+      "path": "emotes/heart.json",
+      "size": 39139,
+      "sha256": "0bdc9fa48329088c2f1aea471fce9af5e1e4a572729a438f32faf2f4e4e2792d"
+    },
+    {
+      "path": "emotes/hearthands.json",
+      "size": 28061,
+      "sha256": "cd9b425dfcdb4a43c33a8ceac6f89ae83076624ba250afba50a416687b0fe61a"
+    },
+    {
+      "path": "emotes/hug.json",
+      "size": 5247,
+      "sha256": "d1bb293d36d004fc728ed9c1cfefe238e84e77cbe8afa53f387eaae52f6b1531"
+    },
+    {
+      "path": "emotes/hunchback.json",
+      "size": 19881,
+      "sha256": "e521ed5634aa953333ac1db2d556d57b9df80b4128186b51946f6802e3ab6424"
+    },
+    {
+      "path": "emotes/Inspect.json",
+      "size": 26486,
+      "sha256": "d1d070ffc05b8a25b5e221ac3620d6cd769fc7c4f1621664f9a6913da7840663"
+    },
+    {
+      "path": "emotes/into_pieces.json",
+      "size": 93290,
+      "sha256": "6f2f7ba1a8b29b14c5a6b2e66a1c2d4f293e942c2586b9d476e6509b829b25eb"
+    },
+    {
+      "path": "emotes/item.json",
+      "size": 18528,
+      "sha256": "1f6a20861a087420f452da13b13423856e64aea3a4494e06c98d2feaf1b0e6bd"
+    },
+    {
+      "path": "emotes/json_export/#3.json",
+      "size": 10613,
+      "sha256": "772acfc659d9c5c643cc0e3f307b42f78249ab4a1fae5e3987a18ea803a493be"
+    },
+    {
+      "path": "emotes/json_export/Bow 1.json",
+      "size": 7525,
+      "sha256": "c424343a97ec34fea60ca308b43377d9ba1da13104d38b044118b59698442edd"
+    },
+    {
+      "path": "emotes/json_export/Bow 2.json",
+      "size": 7536,
+      "sha256": "ec915a9816ad85abc02bc9c34595de99590410298ad72d5efdcbc3a340682691"
+    },
+    {
+      "path": "emotes/json_export/BPS Bloopers.json",
+      "size": 13155,
+      "sha256": "2f1263c8025dde2dca7db76568d0c70b1db7807dfc255b29bea689059176939b"
+    },
+    {
+      "path": "emotes/json_export/club penguin dance.json",
+      "size": 34758,
+      "sha256": "949f14aa7dd92cb2ac4b2ced9309e4f79ae20f4bd45a8e55b538328bf2c57f6b"
+    },
+    {
+      "path": "emotes/json_export/cool sit.json",
+      "size": 9113,
+      "sha256": "2815f17382925c8fd75b7ce2f5e95e62541b93570e066ede9e108ccde6621c6e"
+    },
+    {
+      "path": "emotes/json_export/cross.json",
+      "size": 6389,
+      "sha256": "946a2c88800b7eadd4bf0304050de5250326b20d52fcf61b457f1d17e767cca6"
+    },
+    {
+      "path": "emotes/json_export/Dab.json",
+      "size": 10108,
+      "sha256": "4e31e55613b4efa6ef96cdd3443806f2ba75010a3b99f947a9dc3a4afb8ae4ac"
+    },
+    {
+      "path": "emotes/json_export/do eternal rest and respawn.json",
+      "size": 31693,
+      "sha256": "902e772bfee85f45e20c16137453e4a48a5e59ec3c4b3fe04e28d86f3fa90fb8"
+    },
+    {
+      "path": "emotes/json_export/Floss Dance.json",
+      "size": 40441,
+      "sha256": "444708fb8a92e689e2cc954835efaee1fc4058d4eca3ee71bc9a1ec075b550de"
+    },
+    {
+      "path": "emotes/json_export/gestures.json",
+      "size": 17313,
+      "sha256": "79734e84c25b4b4ba61b4e1bfdf881c330be7b053e1b3c60bac01ee97fcae76e"
+    },
+    {
+      "path": "emotes/json_export/Give respects.json",
+      "size": 8672,
+      "sha256": "576121f5e3d94acabfc22ade87e7ec568ab46425050c8c755ba7e224123cc6c8"
+    },
+    {
+      "path": "emotes/json_export/good bit.json",
+      "size": 3640,
+      "sha256": "cc0bb732a7eac67fb63e0bcf2dbb2f47fe1cf1e18fba03527bb6458860dba812"
+    },
+    {
+      "path": "emotes/json_export/grace.json",
+      "size": 7364,
+      "sha256": "8bc959279eeb0c7f3d0e998def829a167f6a0e18f1f304c11793cfb7cb517468"
+    },
+    {
+      "path": "emotes/json_export/Ground sit.json",
+      "size": 21948,
+      "sha256": "a7b8c857a18564b2501ce2d0d2ba89f10d6f116f593bfef021b3a18c99fc52dd"
+    },
+    {
+      "path": "emotes/json_export/Hand on heart.json",
+      "size": 11281,
+      "sha256": "76331eca6760f93dc6537817d9160323e6886f13f1d09c47cbbcb2595038a765"
+    },
+    {
+      "path": "emotes/json_export/Head Yeet.json",
+      "size": 5770,
+      "sha256": "b2045f3a8b7a350576b78623a51c0f42fa979e5cf41f72b34fd296dbb7c7cdbe"
+    },
+    {
+      "path": "emotes/json_export/HeadBall.json",
+      "size": 20967,
+      "sha256": "31b7e154a379425264ebe15c138bb554117b211515a8fc3a35bee3a31b213b8b"
+    },
+    {
+      "path": "emotes/json_export/Headspin.json",
+      "size": 0,
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "path": "emotes/json_export/hello.json",
+      "size": 20029,
+      "sha256": "ec311a43e4ba4fabd421a43c42dba6dacdcb358de681ef9074b6c5915b290ccc"
+    },
+    {
+      "path": "emotes/json_export/Hug.json",
+      "size": 3183,
+      "sha256": "64f79217b44c9ec633625b6587206c3bff5f1f5db04f2bf85a25aefd4fe62900"
+    },
+    {
+      "path": "emotes/json_export/Hunchback.json",
+      "size": 9796,
+      "sha256": "9d2d5d9c972a9381765189cca639f35ed4b4e50a8ab349bbaa649a5db8ab705a"
+    },
+    {
+      "path": "emotes/json_export/Inspect.json",
+      "size": 9655,
+      "sha256": "0bc342f2bc0375450f2cb94f162924e6d161c3b189d26e1bccafadd13128d88f"
+    },
+    {
+      "path": "emotes/json_export/into pieces.json",
+      "size": 32360,
+      "sha256": "3108d4ad4145fef2a8b03a3df7432a66d9776ea11e7e403d71a9e3bb4e6838b1"
+    },
+    {
+      "path": "emotes/json_export/item look.json",
+      "size": 8535,
+      "sha256": "84d953e99a2296d5c0e313ec7c52eca249e5c20479eca68fb989ed92f38d7714"
+    },
+    {
+      "path": "emotes/json_export/Jump.json",
+      "size": 7937,
+      "sha256": "793d609f293321d6e7282b49964743a3e956e4f5037d6fe702c93bbd1d97e14f"
+    },
+    {
+      "path": "emotes/json_export/Jumping Jacks.json",
+      "size": 27972,
+      "sha256": "90bbb26bc39e73dea1d68a3e5abedb6a69265c5fd7bbafa79390ec2f38edd1ca"
+    },
+    {
+      "path": "emotes/json_export/Lay down.json",
+      "size": 32637,
+      "sha256": "f15f88af4cfba75dd2cd7ac38fe35790fbb2e5622d1e703f8c9930e253b7fe54"
+    },
+    {
+      "path": "emotes/json_export/Lay on your back.json",
+      "size": 4671,
+      "sha256": "2df6a5e4a9c978c7e2fd59eb50bf85aa62cf091a39bace49bfb0ff05ddb62bf0"
+    },
+    {
+      "path": "emotes/json_export/lean.json",
+      "size": 8273,
+      "sha256": "7239464035cb8a003b3fae5b9eff185d9bc9145b30f112e223b17767f76e6707"
+    },
+    {
+      "path": "emotes/json_export/Look Around.json",
+      "size": 6373,
+      "sha256": "d85bc4a54eb1b3100adbfcc2c3780b7cea3c00a3aedc3d142bf67645ca15e3c1"
+    },
+    {
+      "path": "emotes/json_export/Meditation.json",
+      "size": 19338,
+      "sha256": "3d6944f7fa601bbe62cdd9f70a02fb1f5fb78d333a6bf393a03567bc6c4b598f"
+    },
+    {
+      "path": "emotes/json_export/Naruto.json",
+      "size": 14106,
+      "sha256": "96f5048e3650941af4312ce52ce31a6afafab59ce8b2868a585022e7c92e6471"
+    },
+    {
+      "path": "emotes/json_export/Orange Justice.json",
+      "size": 92841,
+      "sha256": "5c768fa05117a43b14d2fd680799a8b0a587ca1c021666a7bc43c298d40684c0"
+    },
+    {
+      "path": "emotes/json_export/penguin.json",
+      "size": 7894,
+      "sha256": "d8c978808258dfb4a1fa5d2918d2e340a07ac209c08112fc125c7ffb15989e9c"
+    },
+    {
+      "path": "emotes/json_export/Selfie.json",
+      "size": 4554,
+      "sha256": "83602bf2e1a528ab054d5441a987d4df3e1ed8051de48fe2a06c43538bbc7970"
+    },
+    {
+      "path": "emotes/json_export/Shy#Nervous.json",
+      "size": 1706,
+      "sha256": "efbaba229de8d1ee21cb6c8fece20bf2c1215ea1ce5d7f1a946a679fba468421"
+    },
+    {
+      "path": "emotes/json_export/Sit.json",
+      "size": 2407,
+      "sha256": "807db308b7595bd236a045aadbbfa4e6c33283ae47e5a00e8cebec1f4d575de5"
+    },
+    {
+      "path": "emotes/json_export/Sitting.json",
+      "size": 2131,
+      "sha256": "7af82aaf73f74214d9be691ec2d1e58f7ddb4dd017d4d56192db2a3e25e97dbf"
+    },
+    {
+      "path": "emotes/json_export/Sit_2.json",
+      "size": 1800,
+      "sha256": "b83beac9d9e02edb2296742601b1eae01566d44fc1381cad85ed1d9e1b79a1de"
+    },
+    {
+      "path": "emotes/json_export/T-Pose.json",
+      "size": 1696,
+      "sha256": "bd0f1fdca1289dd9f28ea1c7917c662e42597ee0ec8a17c36e23ddec389c34a8"
+    },
+    {
+      "path": "emotes/json_export/Take the L.json",
+      "size": 34551,
+      "sha256": "1e4b703b3248b8dc454e31b9c3aef750ed5c113c36e4e701166458d61c050997"
+    },
+    {
+      "path": "emotes/json_export/The dab.json",
+      "size": 12441,
+      "sha256": "b703c071520a946a7fb94e5bd9a345e9a8a4ad690a0297c1c14fd42250ac62dd"
+    },
+    {
+      "path": "emotes/json_export/The floss.json",
+      "size": 67188,
+      "sha256": "1d8e7cda15923a6f1dbf99a75aa01332f328038e6007f308402efda8c442857e"
+    },
+    {
+      "path": "emotes/json_export/Twerk.json",
+      "size": 22691,
+      "sha256": "38299564c1762f583573c45b8cd746448b43c6e5ec9d9cecfe8f7c24915716df"
+    },
+    {
+      "path": "emotes/jump.json",
+      "size": 18703,
+      "sha256": "6caf2f98732ad6c2aa088d8c7fe6f6b09257661298979698397e73d9cd152ef7"
+    },
+    {
+      "path": "emotes/jumping jacks.json",
+      "size": 69969,
+      "sha256": "65714e9dc6f46da3045aa346abb4022cd81f6014c04e3a7b586f188178faa6ee"
+    },
+    {
+      "path": "emotes/lay_down5.json",
+      "size": 73953,
+      "sha256": "c4d18b8359744e348641ac8a9bd115edd25921d3040c5ff361dcf78acf786840"
+    },
+    {
+      "path": "emotes/lean.json",
+      "size": 14477,
+      "sha256": "94cd2440ecf27c0d7ec0c97a9cbcbc68a9040b1055230287796487aeb9b42b44"
+    },
+    {
+      "path": "emotes/lejat.json",
+      "size": 7799,
+      "sha256": "19a3bab49b843d6692e443c9501fd475b2d1c59fe4e3c9d68965dd99810563d1"
+    },
+    {
+      "path": "emotes/lookaround.json",
+      "size": 14998,
+      "sha256": "77bb9f6ab288eae6c1afe2a5a115482ea25e6e540670e3c7faca5e11d361fe2b"
+    },
+    {
+      "path": "emotes/make_gestures.json",
+      "size": 45866,
+      "sha256": "fc7fa7e1b7e7b95fdaceb2cef3ea5c95ac28b78501a4cbcd8dfe52fc230269e3"
+    },
+    {
+      "path": "emotes/meditation_fly.json",
+      "size": 38490,
+      "sha256": "d8f546d1ad3d567e3f93d5ae15b525c922bcde7fae1559436acd1e2b1fdd4909"
+    },
+    {
+      "path": "emotes/meeting.json",
+      "size": 49674,
+      "sha256": "44a5f6ff0fa3d455a78d9a9058d204356090f9542a67e76bd16d9499ef230e29"
+    },
+    {
+      "path": "emotes/narutonew.json",
+      "size": 78415,
+      "sha256": "564f870144a63e0adda2f93ae5da68410a0fbdc7a718909291e6d5d7a97bb5c3"
+    },
+    {
+      "path": "emotes/nervous.json",
+      "size": 2817,
+      "sha256": "7fd37c4a3120d3b76e0ec711e9c7efeca6ccae2fb33125f06c8fdd2530dbef5c"
+    },
+    {
+      "path": "emotes/orange justice.json",
+      "size": 165358,
+      "sha256": "9fc76c73bcfc65e08d34eeb5be18ebd9c348f87559007127d7e09b0f6c5e8395"
+    },
+    {
+      "path": "emotes/penguin.json",
+      "size": 25977,
+      "sha256": "0719a6d4e593ace446e2001658674424bff1965790877861939d39ee49bd360d"
+    },
+    {
+      "path": "emotes/selfie.json",
+      "size": 7760,
+      "sha256": "8854e458a2b2f021b394ca9c64d9c6e6f993a89bd79bc09a33525dd72830ffa0"
+    },
+    {
+      "path": "emotes/shake.json",
+      "size": 13980,
+      "sha256": "b245cf659e58d5c7906719c01b701d4e0d26f7e495bfe9d3d299edf8025d76d8"
+    },
+    {
+      "path": "emotes/sit.json",
+      "size": 4046,
+      "sha256": "1e5940f16afc3822a00d3a99da1c70c26e2de47eae5110189c20bee3e9ebc4ad"
+    },
+    {
+      "path": "emotes/sitting.json",
+      "size": 3581,
+      "sha256": "4b31fc18d89b38cb17cb41629cb59471c70c68cf5d6cea544a3598a6c5e6e794"
+    },
+    {
+      "path": "emotes/take the l.json",
+      "size": 86075,
+      "sha256": "8a41337862388ff29b436a74a8eec7828ea05afdd0efe14d3f9040a45598ff2a"
+    },
+    {
+      "path": "emotes/the_dab.json",
+      "size": 23732,
+      "sha256": "5961c69156ee8b35a83bc9e91f4fff91792289009414525279b85ea836552602"
+    },
+    {
+      "path": "emotes/tpose.json",
+      "size": 2799,
+      "sha256": "e81cd74ece1639d5d8dd2077c39f2de0a1880ce1d2aafa0fe7b51641aa40ab94"
+    },
+    {
+      "path": "emotes/Twerk.json",
+      "size": 53912,
+      "sha256": "2fb9fcebee765eb561199508b5f1c7381e54cad8b132eb65e345f31006b91970"
+    },
+    {
+      "path": "mods/appleskin-forge-mc1.20.1-2.5.1.jar",
+      "size": 47428,
+      "sha256": "e12419e43e3babc810af289403c5cd96bd7f09809b389acc6bb2f122b4b2a426"
+    },
+    {
+      "path": "mods/CasinoCraft_1.20.1_v25.jar",
+      "size": 2060409,
+      "sha256": "470aede4e24e074c29637fe92ae822aa0f71d787f62e7c352f4c647632ef6a16"
+    },
+    {
+      "path": "mods/cloth-config-11.1.136-forge.jar",
+      "size": 1181413,
+      "sha256": "1e895e85cf5b1e1905ef3178ec155c8badfe22a1577b92c09143a5aa1f4ce0f2"
+    },
+    {
+      "path": "mods/CreativeCore_FORGE_v2.12.40_mc1.20.1.jar",
+      "size": 1144290,
+      "sha256": "936de62489c0d6fbe74202486cbe2b191b8629b02bab1d480acfdb03690f33f4"
+    },
+    {
+      "path": "mods/easy_npc-forge-1.20.1-7.14.0.jar",
+      "size": 2975561,
+      "sha256": "7ac0a84b9fbd5944dcd4a0524c17ebb8c022092272082f6436f732fca081918f"
+    },
+    {
+      "path": "mods/easy_npc_bundle-forge-1.20.1-7.14.0.jar",
+      "size": 25443,
+      "sha256": "0f210f5445132f468b7b16585c5643ffa5eb5d429c42b05897cd75097de6cb14"
+    },
+    {
+      "path": "mods/easy_npc_config_ui-forge-1.20.1-7.14.0.jar",
+      "size": 1140305,
+      "sha256": "b1dff21b234e5fe93346e9fb47e5e25d229c187769305e97238a0d8a50032e96"
+    },
+    {
+      "path": "mods/embeddium-0.3.31+mc1.20.1.jar",
+      "size": 1320675,
+      "sha256": "eed3d1325f2acc2fd4e69bb495e5ccb91d962126ac5330f0582ebc2a3daf47fb"
+    },
+    {
+      "path": "mods/emotecraft-for-MC1.20.1-2.2.7-b.build.50-forge.jar",
+      "size": 680255,
+      "sha256": "ffaac96e37e6fa950080e2eb4aa361aa8b7bd6c4370862f39893ac2d266d7c14"
+    },
+    {
+      "path": "mods/fancymenu_forge_3.8.1_MC_1.20.1.jar",
+      "size": 4472193,
+      "sha256": "ba1ddf0f61def8ea87e7757ebb45f1390e1da0f7ebce1aff299b0a169b045858"
+    },
+    {
+      "path": "mods/fragmentum-5.2.0+1.20.1-forge.jar",
+      "size": 8580894,
+      "sha256": "a003fedce92c52ef377e48fc3779cb2506be1ce7f947c88f1eb241b2992c16b4"
+    },
+    {
+      "path": "mods/geckolib-forge-1.20.1-4.8.4.jar",
+      "size": 1038209,
+      "sha256": "c04abba4fd354dd8c0e8a732f1f05f4dca893d2e1d962b2ab128bbd411478747"
+    },
+    {
+      "path": "mods/HergelMorph-Forge-1.20.1-0.12.0.jar",
+      "size": 269853,
+      "sha256": "483b13cbd81109168dad3e10251728c99ab94718bd5b2ad65dd5c0b8e0a1dde1"
+    },
+    {
+      "path": "mods/Hormiguero-2.6.2.jar",
+      "size": 248824,
+      "sha256": "85fb5b823364d37b20d224f9a7c92949a50768de6a69cb6b2c6faff5e41392c9"
+    },
+    {
+      "path": "mods/Iceberg-1.20.1-forge-1.1.25.jar",
+      "size": 134551,
+      "sha256": "91ad6b459e0c7a16a9f3dc90230248a696600ceec6646aa23263559b8648dbc3"
+    },
+    {
+      "path": "mods/immersive_paintings-0.6.13+1.20.1-forge.jar",
+      "size": 4856103,
+      "sha256": "069d5dffa4060d965899e607fad725c4d80a8086cef64f1d7563259b0a070633"
+    },
+    {
+      "path": "mods/ItemBorders-1.20.1-forge-1.2.2.jar",
+      "size": 20832,
+      "sha256": "23710606b68c5367ef28d2efa55d8efc4a7d1df8ac1f232e4327977cd1a16b56"
+    },
+    {
+      "path": "mods/konkrete_forge_1.8.0_MC_1.20-1.20.1.jar",
+      "size": 625185,
+      "sha256": "e78686b92c3761ec26eb9d3c53efdd3d6ca77981cbd3723995e1163b7103ae0b"
+    },
+    {
+      "path": "mods/lootbeams-1.20.1-1.2.6.jar",
+      "size": 163914,
+      "sha256": "4660197524c9198ca93b20999204881a007df452e3bd2151358ea6b844e86b3f"
+    },
+    {
+      "path": "mods/Lucky77_1.20.1_v04.jar",
+      "size": 231682,
+      "sha256": "dc3fd253e7bb2b4f8dc90aa27aa8c74176e49d46dcb26c6ca5c291c769201b98"
+    },
+    {
+      "path": "mods/melody_forge_1.0.3_MC_1.20.1-1.20.4.jar",
+      "size": 37178,
+      "sha256": "933e2a7e79c4594f965f7f7d00b1f28a98ec2a180ad8f9f90310a266fe5cf5d8"
+    },
+    {
+      "path": "mods/modminds-1.0.6-forge-1.20.1.jar",
+      "size": 5360526,
+      "sha256": "c5c15ae1a066b714e70953571708bd3247237c54282557bc72f6a77913f4a2da"
+    },
+    {
+      "path": "mods/more_owleaf-1.3.7.jar",
+      "size": 566556,
+      "sha256": "062d5ab800aec095f30f7cdd977f22960034a8a128a58cf5ef376e96953019f6"
+    },
+    {
+      "path": "mods/mowziesmobs-1.8.2.jar",
+      "size": 36033850,
+      "sha256": "e8ce1768cda6f1e1fadd2321c92921b473bd0cee45ba4b8387fb30f8326cb31c"
+    },
+    {
+      "path": "mods/obscure_tooltips-forge-1.20.1-3.10.1.jar",
+      "size": 1138929,
+      "sha256": "ac8b26da3c4ec73988c0b83ac3e77ab9a116f3f88066b4d174dc6563ffd335bd"
+    },
+    {
+      "path": "mods/oculus-mc1.20.1-1.8.0.jar",
+      "size": 2851119,
+      "sha256": "0945df0cba0f62b3901dd80c3268e5311b770ece78c78037a45db12ac0425fef"
+    },
+    {
+      "path": "mods/Pehkui-3.8.2+1.20.1-forge.jar",
+      "size": 671605,
+      "sha256": "54210f454c166f65a1bcbbfe4ea52e6f73e07844a793c7132f1af4076a0f42fc"
+    },
+    {
+      "path": "mods/player-animation-lib-forge-1.0.2-rc1+1.20.jar",
+      "size": 181437,
+      "sha256": "90d9965cb9efdbda29fdc5610be3914cf7008bf5c392ff34f7ab25f96a852691"
+    },
+    {
+      "path": "mods/Prism-1.20.1-forge-1.0.5.jar",
+      "size": 52205,
+      "sha256": "b1a576f920faeb2175f693e3ee7ba9e5ff0bcf0e404da29f1824ea3c66efd240"
+    },
+    {
+      "path": "mods/voicechat-forge-1.20.1-2.6.22.jar",
+      "size": 4923439,
+      "sha256": "f171e99fa99f007ef013af5306f6c490fe79a11be7e1b18940147d75ced045b9"
+    },
+    {
+      "path": "mods/waterframes-FORGE-mc1.20.1-v2.1.22.jar",
+      "size": 255481,
+      "sha256": "e7727c11b4d32aa25a7f1176cddef5f230f6f6b6dda3e37bf418b7f025b39ed8"
+    },
+    {
+      "path": "mods/watermedia-2.1.37.jar",
+      "size": 37046674,
+      "sha256": "cdd8e1b50e4dee0892c5ed02724cea6b1a74d2b718c7e974c9cfc0efa8c10389"
+    },
+    {
+      "path": "mods/watermedia_youtube_plugin-2.1.2.jar",
+      "size": 3830072,
+      "sha256": "95c2841103b4d1e0c222f29b49d9500c0d5306772aa18c6eb11925be6ff7507e"
+    },
+    {
+      "path": "mods/watervision-FG-mc1.20.1-v0.1.0-alpha.jar",
+      "size": 82079,
+      "sha256": "c04fb6d0996061c2e9d03efd2dd8eea6434355dfcb9618670bd52d632e00b90b"
+    },
+    {
+      "path": "options.txt",
+      "size": 4867,
+      "sha256": "2d51472dfc2a9f17079313d8831f72fec8ca452a751d68ce39277c58fcaa65c0"
+    },
+    {
+      "path": "resourcepacks/Stay_True_1.20.zip",
+      "size": 2139266,
+      "sha256": "508bc459fe7125378e595681c3f571724648ff9f0be6dd21e31a83f7eeb1f8e0"
+    },
+    {
+      "path": "shaderpacks/MakeUp-UltraFast-9.5f.zip",
+      "size": 403666,
+      "sha256": "afbf622b983d29ffa5fe5f15197f321d3921915bd44584d85f14bc11b5e0e5e8"
+    }
+  ]
+}

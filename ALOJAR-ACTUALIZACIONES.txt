@@ -1,0 +1,16 @@
+HERGEL LAUNCHER 0.20.0
+
+El repositorio y las direcciones internas ya están configurados.
+Consulta README.md para la publicación inicial y las siguientes versiones.
+
+Archivos de cada release estable:
+- Hergel-Launcher-Instalador.exe
+- launcher-update.json
+- catalog.json
+
+Archivo de la prerelease event-assets-v1:
+- Hormiguero-Paquete-Jugadores.zip
+
+La carpeta .github/workflows contiene el proceso de compilación y publicación.
+Los controles de simulación y el campo de URL no forman parte de esta versión.
+No se ha compilado ni publicado aún un instalador con este paquete preparado.

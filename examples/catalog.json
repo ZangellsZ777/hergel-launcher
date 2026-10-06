@@ -1,0 +1,15 @@
+{
+  "schema": 1,
+  "packs": [
+    {
+      "id": "el-hormiguero",
+      "name": "El Hormiguero",
+      "minecraft": "1.20.1",
+      "loader": "forge",
+      "forge": "47.4.10",
+      "server": "ElHormiguero.exaroton.me:39146",
+      "files": [],
+      "bundle": "hormiguero"
+    }
+  ]
+}
