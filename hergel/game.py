@@ -96,4 +96,12 @@ def launch_game(folder, version, minecraft_account, server=None, memory_gb=4):
         if port:
             options['port'] = port
     command = minecraft_launcher_lib.command.get_minecraft_command(version, str(folder), options)
+    if sys.platform == 'win32':
+        # Windowed launchers have no console handles; keep Java output in a log.
+        logs = folder / 'logs'
+        logs.mkdir(parents=True, exist_ok=True)
+        with (logs / 'hergel-launch.log').open('ab') as output:
+            return subprocess.Popen(command, cwd=folder,
+                creationflags=subprocess.CREATE_NO_WINDOW,
+                stdin=subprocess.DEVNULL, stdout=output, stderr=subprocess.STDOUT)
     return subprocess.Popen(command, cwd=folder)
