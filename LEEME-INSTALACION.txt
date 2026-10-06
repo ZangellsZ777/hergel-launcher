@@ -11,9 +11,9 @@ HERGEL LAUNCHER — PAQUETE EL HORMIGUERO
 6. Pulsa JUGAR en el launcher. Ya dentro de Minecraft, usa Jugar
    en el menú de FancyMenu para conectarte al servidor.
 
-El paquete de 34 mods está incluido en packs/hormiguero.zip.
-No necesitas subirlo a un alojamiento para probar esta versión.
-No borres ni muevas la carpeta packs.
+El paquete de 34 mods se descarga desde GitHub al pulsar Descargar.
+El instalador del launcher no incluye el ZIP del modpack.
+La primera instalación del evento requiere conexión.
 Shaders incluidos pero apagados. Voice Chat: Bloq Mayús para hablar.
 La instalación usa la ubicación discreta habitual de Hergel Launcher.
 Los ajustes iniciales se aplican en la primera instalación.

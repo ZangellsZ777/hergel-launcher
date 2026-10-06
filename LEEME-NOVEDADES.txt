@@ -1,10 +1,6 @@
-HERGEL LAUNCHER 0.20.0
+HERGEL LAUNCHER 0.20.1
 
-Configuración interna de GitHub Releases.
-Actualizaciones de launcher y evento; catálogo local si no hay conexión.
-Retirados los simulacros y el campo de URL de Ajustes.
-Paquete incluido reutilizado cuando coincide con el catálogo remoto.
-Compilación automática de Windows con comprobación del ejecutable.
-Sesión, skin, diseño y ajustes de RAM conservados.
-
+Instalador ligero: el modpack se descarga desde GitHub al pulsar Descargar.
+Las descargas se verifican con SHA-256 y se reutilizan si ya están completas.
+Se conservan la sesión Microsoft, el diseño y los ajustes de RAM.
 Consulta README.md para publicar y probar en Windows.

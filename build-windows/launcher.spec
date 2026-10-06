@@ -8,7 +8,8 @@ for package in ['minecraft_launcher_lib', 'msal', 'msal_extensions', 'requests',
     extra_bins += binaries
     extra_imports += hidden
 a = Analysis([str(base / 'run.py')], pathex=[str(base)],
-    binaries=extra_bins, datas=extra_data + [(str(base / name), name) for name in ['assets', 'examples', 'packs', 'tools']] +
+    binaries=extra_bins, datas=extra_data + [(str(base / name), name) for name in ['assets', 'examples', 'tools']] +
+    [(str(base / 'packs' / 'hormiguero.json'), 'packs')] +
     [(str(base / 'microsoft_app.json'), '.'), (str(base / 'launcher_updates.json'), '.')],
     hiddenimports=extra_imports, hookspath=[], hooksconfig={}, runtime_hooks=[], excludes=[])
 pyz = PYZ(a.pure)

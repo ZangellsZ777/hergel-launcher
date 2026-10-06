@@ -1,4 +1,4 @@
-HERGEL LAUNCHER 0.20.0
+HERGEL LAUNCHER 0.20.1
 
 El repositorio y las direcciones internas ya están configurados.
 Consulta README.md para la publicación inicial y las siguientes versiones.

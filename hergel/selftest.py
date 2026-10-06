@@ -12,14 +12,15 @@ def main(output):
         from .gui import App
         from .updater import update_config
         from .core import load_catalog
-        from .pack import PACKS, bundle_data, digest
+        from .pack import PACKS, bundle_data, validate_remote_package
         from .microsoft_auth import get_client_id
         root = PACKS.parent
         assert update_config(), 'Falta el repositorio de actualizaciones'
         assert get_client_id(), 'Falta el ID de Microsoft'
         pack = load_catalog(str(root / 'examples/catalog.json'))['packs'][0]
         meta = bundle_data(pack)
-        assert digest(PACKS / meta['archive']) == meta['sha256'], 'Paquete dañado'
+        validate_remote_package(meta)
+        assert not (PACKS / 'hormiguero.zip').exists(), 'El instalador ligero incluye el modpack'
         with patch.object(App, 'load', lambda self: None), patch.object(App, 'restore_login', lambda self: None), patch.object(App, 'check_launcher_updates', lambda self: None), patch('hergel.gui.load_settings', return_value={}):
             app = App()
             app.withdraw()
@@ -31,7 +32,7 @@ def main(output):
             app.show_launcher_update()
             assert app.update_dialog.winfo_exists(), 'No abre el aviso de actualización'
             app.update_dialog.destroy()
-        result = {'ok':True, 'checks':['configuración', 'paquete SHA-256', 'ventana principal', 'ajustes', 'aviso de actualización']}
+        result = {'ok':True, 'checks':['configuración', 'manifiesto de descarga', 'modpack excluido', 'ventana principal', 'ajustes', 'aviso de actualización']}
     except Exception:
         result['error'] = traceback.format_exc()
     finally:
