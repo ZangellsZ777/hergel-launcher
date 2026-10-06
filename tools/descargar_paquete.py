@@ -12,7 +12,7 @@ def main():
     meta = json.loads((root / 'pack-source.json').read_text())
     target = root / 'packs/hormiguero.zip'
     expected = json.loads((root / 'packs/hormiguero.json').read_text())
-    if meta['sha256'] != expected['sha256']:
+    if any(meta[key] != expected[key] for key in ('url', 'size', 'sha256')):
         raise ValueError('El paquete fuente y el manifiesto no coinciden.')
     if target.exists() and target.stat().st_size == meta['size']:
         with target.open('rb') as stream:

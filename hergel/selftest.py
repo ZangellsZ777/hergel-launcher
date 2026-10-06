@@ -15,11 +15,13 @@ def main(output):
         from .pack import PACKS, bundle_data, validate_remote_package
         from .microsoft_auth import get_client_id
         root = PACKS.parent
-        assert update_config(), 'Falta el repositorio de actualizaciones'
+        config = update_config()
+        assert config, 'Falta el repositorio de actualizaciones'
         assert get_client_id(), 'Falta el ID de Microsoft'
         pack = load_catalog(str(root / 'examples/catalog.json'))['packs'][0]
         meta = bundle_data(pack)
         validate_remote_package(meta)
+        assert meta['url'].startswith(f'https://github.com/{config["repository"]}/releases/download/'), 'El manifiesto apunta a otro repositorio'
         assert not (PACKS / 'hormiguero.zip').exists(), 'El instalador ligero incluye el modpack'
         with patch.object(App, 'load', lambda self: None), patch.object(App, 'restore_login', lambda self: None), patch.object(App, 'check_launcher_updates', lambda self: None), patch('hergel.gui.load_settings', return_value={}):
             app = App()
