@@ -1,0 +1,17 @@
+AJUSTES VISUALES — HERGEL LAUNCHER
+
+Extrae todo el ZIP en una carpeta nueva y abre ABRIR-HERGEL.bat.
+Si necesitas instalar las dependencias:
+py -m pip install -r requirements.txt
+
+Ajustes se encuentra encima de la skin, con el mismo fondo lateral.
+El menu de Ajustes incluye un control de RAM y Guardar/Cancelar.
+Las direcciones de actualizaciones están configuradas internamente.
+El icono de la ventana es el gato de Hergel Studio.
+En Windows 11, la barra de titulo se colorea de morado oscuro.
+En versiones anteriores de Windows se intenta aplicar el tema oscuro;
+el sistema puede conservar su color habitual.
+
+Se conservan la sesion cifrada, el modpack y las actualizaciones.
+El instalador sigue preparado para compilar con CREAR-INSTALADOR.bat.
+No se incluye un instalador .exe ya compilado.

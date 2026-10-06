@@ -1,0 +1,10 @@
+HERGEL LAUNCHER 0.20.0
+
+Configuración interna de GitHub Releases.
+Actualizaciones de launcher y evento; catálogo local si no hay conexión.
+Retirados los simulacros y el campo de URL de Ajustes.
+Paquete incluido reutilizado cuando coincide con el catálogo remoto.
+Compilación automática de Windows con comprobación del ejecutable.
+Sesión, skin, diseño y ajustes de RAM conservados.
+
+Consulta README.md para publicar y probar en Windows.

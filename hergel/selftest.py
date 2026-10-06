@@ -1,0 +1,41 @@
+"""Offline smoke check for the actual packaged Windows executable."""
+import json
+import traceback
+from pathlib import Path
+from unittest.mock import patch
+
+
+def main(output):
+    app = None
+    result = {'ok': False}
+    try:
+        from .gui import App
+        from .updater import update_config
+        from .core import load_catalog
+        from .pack import PACKS, bundle_data, digest
+        from .microsoft_auth import get_client_id
+        root = PACKS.parent
+        assert update_config(), 'Falta el repositorio de actualizaciones'
+        assert get_client_id(), 'Falta el ID de Microsoft'
+        pack = load_catalog(str(root / 'examples/catalog.json'))['packs'][0]
+        meta = bundle_data(pack)
+        assert digest(PACKS / meta['archive']) == meta['sha256'], 'Paquete dañado'
+        with patch.object(App, 'load', lambda self: None), patch.object(App, 'restore_login', lambda self: None), patch.object(App, 'check_launcher_updates', lambda self: None), patch('hergel.gui.load_settings', return_value={}):
+            app = App()
+            app.withdraw()
+            app.update_idletasks()
+            app.show_settings()
+            assert app.settings_dialog.winfo_exists(), 'No abre Ajustes'
+            app.settings_dialog.destroy()
+            app.launcher_update = {'version':'999.0.0', 'required':False, 'notes':'Verificación automática'}
+            app.show_launcher_update()
+            assert app.update_dialog.winfo_exists(), 'No abre el aviso de actualización'
+            app.update_dialog.destroy()
+        result = {'ok':True, 'checks':['configuración', 'paquete SHA-256', 'ventana principal', 'ajustes', 'aviso de actualización']}
+    except Exception:
+        result['error'] = traceback.format_exc()
+    finally:
+        if app is not None:
+            app.destroy()
+        Path(output).write_text(json.dumps(result, ensure_ascii=False, indent=2), encoding='utf-8')
+    return 0 if result['ok'] else 1

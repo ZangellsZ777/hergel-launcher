@@ -1,0 +1,4 @@
+msal>=1.30,<3
+minecraft-launcher-lib>=8,<9
+Pillow>=10,<13
+msal-extensions>=1.2,<2
