@@ -1,0 +1,104 @@
+name: Compilar Hergel Launcher
+on:
+  workflow_dispatch:
+    inputs:
+      publicar:
+        description: Publicar el instalador y activar el aviso para jugadores
+        type: boolean
+        default: false
+      minima:
+        description: Versión mínima permitida (0.0.0 significa actualización opcional)
+        type: string
+        default: '0.0.0'
+      notas:
+        description: Cambios que verán los jugadores
+        type: string
+        default: 'Mejoras de Hergel Launcher.'
+permissions:
+  contents: write
+concurrency:
+  group: hergel-release
+  cancel-in-progress: false
+jobs:
+  windows:
+    runs-on: windows-latest
+    timeout-minutes: 45
+    env:
+      GH_TOKEN: ${{ github.token }}
+      GH_REPO: ${{ github.repository }}
+      MINIMUM: ${{ inputs.minima }}
+      RELEASE_NOTES: ${{ inputs.notas }}
+    defaults:
+      run:
+        shell: pwsh
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          persist-credentials: false
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+      - name: Instalar dependencias
+        run: |
+          python -m pip install -r requirements.txt pyinstaller
+          if ($LASTEXITCODE -ne 0) { throw 'Falló la instalación de dependencias' }
+      - name: Recuperar el paquete de jugadores
+        run: |
+          python tools/descargar_paquete.py
+          if ($LASTEXITCODE -ne 0) { throw 'Falló la descarga del paquete' }
+      - name: Verificar código y preparar versión
+        run: |
+          python -m unittest discover -s tests -v
+          if ($LASTEXITCODE -ne 0) { throw 'Fallaron las pruebas' }
+          python tools/preparar_version.py
+          if ($LASTEXITCODE -ne 0) { throw 'Configuración de versión inválida' }
+      - name: Compilar el ejecutable
+        run: |
+          python -m PyInstaller --noconfirm build-windows/launcher.spec
+          if ($LASTEXITCODE -ne 0) { throw 'Falló PyInstaller' }
+      - name: Comprobar que el ejecutable abre
+        run: |
+          $report = Join-Path $env:RUNNER_TEMP 'hergel-smoke.json'
+          $process = Start-Process -FilePath 'dist/HergelLauncher/HergelLauncher.exe' -ArgumentList @('--self-test', $report) -PassThru
+          if (-not $process.WaitForExit(120000)) { $process.Kill(); throw 'La comprobación no terminó' }
+          if ($process.ExitCode -ne 0 -or -not (Test-Path $report)) { throw 'El ejecutable no superó la comprobación' }
+          $result = Get-Content $report -Raw | ConvertFrom-Json
+          if (-not $result.ok) { throw $result.error }
+          Get-Content $report
+      - name: Instalar Inno Setup
+        run: |
+          $installer = Join-Path $env:RUNNER_TEMP 'innosetup.exe'
+          Invoke-WebRequest 'https://github.com/jrsoftware/issrc/releases/download/is-6_7_3/innosetup-6.7.3.exe' -OutFile $installer
+          $signature = Get-AuthenticodeSignature $installer
+          if ($signature.Status -ne 'Valid' -or $signature.SignerCertificate.Subject -notmatch 'Pyrsys B.V.') { throw 'Firma de Inno Setup inválida' }
+          $process = Start-Process $installer -ArgumentList '/VERYSILENT /SUPPRESSMSGBOXES /NORESTART /SP-' -Wait -PassThru
+          if ($process.ExitCode -ne 0) { throw 'Falló Inno Setup' }
+      - name: Crear instalador y anuncios
+        run: |
+          & "${env:ProgramFiles(x86)}/Inno Setup 6/ISCC.exe" 'build-windows/installer.iss'
+          if ($LASTEXITCODE -ne 0) { throw 'Falló el instalador' }
+          python tools/generar_actualizacion.py dist/Hergel-Launcher-Instalador.exe --minima "$env:MINIMUM" --notas "$env:RELEASE_NOTES"
+          if ($LASTEXITCODE -ne 0) { throw 'Anuncio inválido' }
+          $pack = Get-Content pack-source.json -Raw | ConvertFrom-Json
+          python tools/generar_catalogo.py packs/hormiguero.zip $pack.url --output dist/catalog.json
+          if ($LASTEXITCODE -ne 0) { throw 'Catálogo inválido' }
+          Set-Content -Path dist/release-notes.txt -Value $env:RELEASE_NOTES -Encoding utf8
+      - name: Guardar archivos de prueba
+        uses: actions/upload-artifact@v4
+        with:
+          name: Hergel-Launcher-Windows
+          path: |
+            dist/Hergel-Launcher-Instalador.exe
+            dist/launcher-update.json
+            dist/catalog.json
+          if-no-files-found: error
+      - name: Publicar release verificada
+        if: inputs.publicar
+        run: |
+          $version = (Get-Content dist/launcher-update.json -Raw | ConvertFrom-Json).version
+          $tag = "v$version"
+          gh release create $tag dist/Hergel-Launcher-Instalador.exe dist/launcher-update.json dist/catalog.json --target '${{ github.sha }}' --title "Hergel Launcher $version" --notes-file dist/release-notes.txt --draft
+          if ($LASTEXITCODE -ne 0) { throw 'No se pudo crear la release. Comprueba que la versión no exista ya.' }
+          gh release edit $tag --draft=false --latest=true
+          if ($LASTEXITCODE -ne 0) { throw 'La release quedó en borrador; revisa su publicación.' }
