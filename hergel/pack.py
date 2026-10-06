@@ -1,4 +1,4 @@
-"""Install the bundled event pack and keep player settings on updates."""
+"""Download and install event packs, preserving player settings on updates."""
 import hashlib
 import json
 import os
@@ -37,6 +37,8 @@ def bundle_data(pack):
                 or path.casefold() in seen):
             raise ValueError('Ruta inválida en el paquete: ' + path)
         seen.add(path.casefold())
+    if meta.get('url'):
+        validate_remote_package(meta)
     return meta
 
 
@@ -67,10 +69,10 @@ def install_bundle(pack, folder, report=lambda message: None,
     folder = Path(folder)
     folder.mkdir(parents=True, exist_ok=True)
     meta = bundle_data(pack)
-    archive = fetch_package(meta, report, progress) if pack.get('package') else PACKS / meta['archive']
+    archive = fetch_package(meta, report, progress) if meta.get('url') else PACKS / meta['archive']
     report('Verificando el paquete de El Hormiguero...')
     if digest(archive) != meta['sha256']:
-        raise ValueError('El paquete está dañado. Descarga de nuevo el launcher.')
+        raise ValueError('El paquete está dañado. Vuelve a pulsar Descargar.')
     old = read_state(folder)
     old_files = {e['path']: e for e in old.get('files', [])}
     entries = meta['files']
@@ -190,7 +192,7 @@ def fetch_package(meta, report, progress):
     path = cache / (meta['sha256'] + '.zip')
     if path.is_file() and path.stat().st_size == meta['size'] and digest(path) == meta['sha256']:
         return path
-    report('Descargando la actualización de El Hormiguero...')
+    report('Descargando el paquete de El Hormiguero...')
     fd, temp = tempfile.mkstemp(prefix='.download-', dir=cache)
     try:
         request = urllib.request.Request(meta['url'], headers={'User-Agent': 'HergelLauncher/0.18'})
