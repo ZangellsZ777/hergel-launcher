@@ -13,6 +13,19 @@ class Response(io.BytesIO):
         return 'https://release-assets.githubusercontent.com/verified'
 
 class LightPackTests(unittest.TestCase):
+    def test_shipped_manifest_matches_verified_build_source(self):
+        from hergel.pack import PACKS, bundle_data
+        from hergel.updater import update_config
+        from hergel.core import load_catalog
+        source = json.loads((PACKS.parent/'pack-source.json').read_text())
+        pack = load_catalog(str(PACKS.parent/'examples/catalog.json'))['packs'][0]
+        meta = bundle_data(pack)
+        self.assertEqual(meta['url'], source['url'])
+        self.assertEqual(meta['size'], source['size'])
+        self.assertEqual(meta['sha256'], source['sha256'])
+        repository = update_config()['repository']
+        self.assertTrue(meta['url'].startswith(f'https://github.com/{repository}/releases/download/'))
+
     def fixture(self):
         content = b'event-mod'
         raw = io.BytesIO()
